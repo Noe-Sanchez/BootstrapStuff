@@ -1,0 +1,53 @@
+body {
+    width:100%;
+    height:100%;
+    color: #5FBF5F;
+    margin-left: 400 px;
+    }
+    
+    html{
+    width:100%;
+    height:100%;
+    font-family: "Consolas";
+    background-color: #202020;
+    }
+    
+    a:link{
+    color: #5ABF5A;
+    }
+    
+    a:visited{
+    color: #5ABF5A;
+    }
+    
+    .grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 80px auto auto auto auto;
+    width: 100%;
+    height: 100%;
+    }
+    
+    #Hdr{
+    background-color: #303030;
+    grid-column: 1 / span 6;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    padding-top:10px;
+    }
+    
+    #Cnt{
+    background-color: #252020;
+    grid-column:3 / span 4;
+    grid-row: 2 / span 4;
+    padding: 30px;
+    }
+    #Pnl{
+    background-color: #202025;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 4;
+    padding:30px;
+    }
+    
