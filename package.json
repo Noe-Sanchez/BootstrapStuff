@@ -4,9 +4,9 @@
   "description": "Directorio para el curso de Node",
   "main": "index.html",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,11 @@
     "url": "https://github.com/Noah-Sanchez/BootstrapStuff/issues"
   },
   "homepage": "https://github.com/Noah-Sanchez/BootstrapStuff#readme",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  },
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
